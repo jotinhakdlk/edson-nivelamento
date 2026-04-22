@@ -328,3 +328,27 @@ let produtos = [
 ];
 
 console.log(produtos)
+
+// ==============================================================================
+
+// 37- Multiplique cada elemento do array por 2
+array3 = [1,2,3,4];
+arraymult = [];
+for(let i = 0; i < array3.length; i++){
+    arraymult.push(array3[i] * 2)
+};
+
+console.log(array3);
+console.log(arraymult);
+
+// 38- Verifique se a fruta "laranja" existe no array ["maça". "banana", "uva"]
+
+arrayfruta = ['maça', 'banana', 'uva'];
+laranja = false;
+for(let i = 0; i < arrayfruta.length; i++){
+    if(arrayfruta[i] == "laranja"){
+        laranja = true;
+    };
+};
+
+console.log(laranja);
