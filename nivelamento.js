@@ -332,8 +332,8 @@ console.log(produtos)
 // ==============================================================================
 
 // 37- Multiplique cada elemento do array por 2
-array3 = [1,2,3,4];
-arraymult = [];
+let array3 = [1,2,3,4];
+let arraymult = [];
 for(let i = 0; i < array3.length; i++){
     arraymult.push(array3[i] * 2)
 };
@@ -343,7 +343,7 @@ console.log(arraymult);
 
 // 38- Verifique se a fruta "laranja" existe no array ["maça". "banana", "uva"]
 
-arrayfruta = ['maça', 'banana', 'uva'];
+let arrayfruta = ['maça', 'banana', 'uva'];
 laranja = false;
 for(let i = 0; i < arrayfruta.length; i++){
     if(arrayfruta[i] == "laranja"){
@@ -352,3 +352,13 @@ for(let i = 0; i < arrayfruta.length; i++){
 };
 
 console.log(laranja);
+
+// 39- Exiba um por um os elemntos do array ["azul", "verde", "amarelo"]
+let arraycor = ['azul', 'verde', 'amarelo'];
+for(let i = 0; i < arraycor.length; i++){
+    console.log(arraycor[i])
+};
+
+// 40- Exiba o último elemento do array [100, 200, 300, 400]
+let arraynum = [100, 200, 300, 400];
+console.log(arraynum[arraynum.length - 1])
